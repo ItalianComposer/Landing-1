@@ -41,6 +41,22 @@ header {
         color: #ffffff;
         text-transform: uppercase;
     }
+    .menu_button {
+
+    }
+    .menu_checkbox {
+        position: absolute;
+        visibility: hidden;
+    }
+    .menu_label {
+        position: relative;
+        display: block;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        background: url(icons/menu-button.svg) no-repeat center;
+        background-size: contain;
+    }
 }
 .content_titles {
     text-align: center;
@@ -55,7 +71,7 @@ header {
     align-items: center;
     gap: 30px;
     padding: 57px 130px;
-    margin: -170px 405px 100px 405px;
+    margin: -170px 21.09vw 100px 21.09vw;
     background: #F7F7F7;
     width: 57.3vw;
     height: 300px;
@@ -120,12 +136,13 @@ header {
 }
 .smart_projects {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 21%;
     background-color: #F7654A;
     height: 191px;
     width: 100%;
-    padding: 30px 405px 45px 405px;
+    padding: 30px 45px;
     margin-bottom: 150px;
     .smart_projects_description {
         h2, p {
@@ -198,7 +215,7 @@ header {
     }
 }
 .faq_container {
-    margin-left: 405px;
+    margin-left: 21.09vw;
     margin-bottom: 150px;
 }
 .faq_item {
@@ -231,7 +248,7 @@ header {
 }
 .partners {
     background-color: #404149;    
-    padding: 100px 405px;
+    padding: 100px;
     margin-bottom: 150px;
     .partners_title {
         color: #ffffff;
@@ -326,7 +343,7 @@ footer {
     justify-content: space-between;
     background-color: #404149;
     height: 82px;
-    padding: 30px 405px;
+    padding: 30px 21.09vw;
     font-size: 16px;
     line-height: 21.79px;
     color: #FFFFFF;
